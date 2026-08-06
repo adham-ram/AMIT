@@ -1,4 +1,4 @@
-# 1. النص المشفر
+
 x = "###!!@mocleW EPGTQ!!!6789"
 
 core = x[x.index('m') : x.index('Q') + 1]  
