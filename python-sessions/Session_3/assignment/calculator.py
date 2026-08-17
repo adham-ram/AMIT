@@ -16,7 +16,7 @@ def calculator():
     while True:
         choice = input("Enter your choice (1/2/3/4) or 'exit' to quit: ").strip().lower()
 
-        if choice in ['exit', '5']:
+        if choice == 'exit':
             print("Exiting the calculator. Goodbye!")
             break
 
