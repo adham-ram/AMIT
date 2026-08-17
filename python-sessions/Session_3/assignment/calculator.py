@@ -1,5 +1,4 @@
 def get_number(prompt):
-    """دالة للتحقق من أن المدخلات أرقام صحيحة أو كسرية"""
     while True:
         try:
             return float(input(prompt))
